@@ -13,9 +13,9 @@ namespace Spells
 
         public void OnFinishCasting(Champion owner, Spell spell, AttackableUnit target)
         {
-            if (!owner.isRecalling)
+            if (!owner._isRecalling)
             {
-                owner.canRecall = true;
+                owner._canRecall = true;
                 owner.Recall(owner, 8.0f);
             }
         }
