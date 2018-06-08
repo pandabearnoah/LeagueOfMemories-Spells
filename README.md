@@ -1,2 +1,3 @@
 # LoM-Spells
-Data/Champions &amp; Data/Buffs
+
+Data/Champions &amp; Data/Buffs. Submodule
